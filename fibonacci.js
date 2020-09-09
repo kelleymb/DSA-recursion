@@ -5,7 +5,7 @@
 
 const fib = function(input) {
     // Base case
-    if(num <= 0) {
+    if(input <= 0) {
         return 'Input must be greater than 0.';
     }
     if(input === 1) {
